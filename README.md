@@ -1,66 +1,29 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Tech Stack :
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Laravel: Laravel adalah kerangka kerja PHP yang populer dan open-source. Ini menyediakan berbagai fitur dan alat untuk mempercepat pengembangan aplikasi web, termasuk routing, manajemen basis data, dan otentikasi pengguna.
 
-## About Laravel
+HTML: HTML adalah bahasa markup yang digunakan untuk membangun struktur dan konten halaman web. Ini digunakan untuk menentukan elemen seperti judul, paragraf, gambar, dan tautan.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+CSS: CSS adalah bahasa gaya yang digunakan untuk mengatur tampilan halaman web. Ini digunakan untuk menentukan warna, font, ukuran, dan tata letak elemen pada halaman web.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+JavaScript: JavaScript adalah bahasa pemrograman yang digunakan untuk memberikan interaksi dan fungsionalitas pada halaman web. Ini dapat digunakan untuk membuat efek animasi, validasi formulir, dan mengambil data dari server melalui AJAX.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+AOS: AOS adalah singkatan dari "Animate On Scroll". Ini adalah library JavaScript open-source yang memungkinkan Anda membuat efek animasi ketika pengguna menggulir halaman web.
 
-## Learning Laravel
+Langkah Menjalankan Projek
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Buka halaman repositori proyek Laravel di GitHub.
+Klik tombol "Code" atau "Clone" dan salin URL repositori proyek (misalnya, https://github.com/nama-akun/nama-repo.git).
+Buka terminal atau command prompt di komputer Anda.
+Pindah ke direktori tempat Anda ingin menyimpan proyek dengan menggunakan perintah cd nama-direktori.
+Jalankan perintah git clone <URL repositori> untuk melakukan cloning proyek dari GitHub. Misalnya, git clone https://github.com/nama-akun/nama-repo.git.
+Setelah proses cloning selesai, pindah ke direktori proyek dengan menggunakan perintah cd nama-repo.
+Salin file .env.example dan ubah namanya menjadi .env.
+Jalankan perintah composer install untuk menginstal semua dependensi proyek yang terdaftar di file composer.json.
+Jalankan perintah php artisan key:generate untuk menghasilkan kunci aplikasi yang diperlukan oleh Laravel.
+Buat database kosong di server MySQL atau database lain yang Anda gunakan.
+Ubah pengaturan koneksi database di file .env dengan mengisi DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, dan DB_PASSWORD sesuai dengan konfigurasi server database Anda.
+Jalankan perintah php artisan migrate untuk menjalankan migrasi dan membuat tabel-tabel yang diperlukan di database.
+Jalankan perintah php artisan serve untuk menjalankan server pengembangan Laravel.
+Buka browser dan akses http://localhost:8000 atau alamat yang ditampilkan di terminal untuk melihat proyek Laravel yang sedang berjalan.
+Dengan langkah-langkah di atas, Anda seharusnya dapat melakukan cloning dan menjalankan proyek Laravel dari GitHub dengan sukses. Pastikan Anda memiliki lingkungan pengembangan yang sesuai (seperti PHP, Composer, dan server database) sebelum memulai.
