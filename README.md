@@ -12,7 +12,7 @@ JavaScript: JavaScript adalah bahasa pemrograman yang digunakan untuk memberikan
 AOS: AOS adalah singkatan dari "Animate On Scroll". Ini adalah library JavaScript open-source yang memungkinkan Anda membuat efek animasi ketika pengguna menggulir halaman web.
 
 
-# QWords Laravel 10 Landing Page Redesign
+# Qwords Laravel 10 Landing Page Redesign
 
 Projek ini adalah redesign dari landing page QWords menggunakan Laravel versi 10. Silakan ikuti langkah-langkah di bawah untuk menginstal dan menjalankan projek ini.
 
