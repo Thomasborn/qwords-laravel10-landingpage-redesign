@@ -1,4 +1,4 @@
-# Infromation
+# Information
 Tech Stack
 
 Laravel: Laravel adalah kerangka kerja PHP yang populer dan open-source. Ini menyediakan berbagai fitur dan alat untuk mempercepat pengembangan aplikasi web, termasuk routing, manajemen basis data, dan otentikasi pengguna.
