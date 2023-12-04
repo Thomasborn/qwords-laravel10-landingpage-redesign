@@ -53,8 +53,8 @@ Pastikan sistem Anda memenuhi persyaratan berikut sebelum menginstal projek:
 
 ## Catatan Tambahan
 
-- Pastikan Anda telah mengatur koneksi database pada file `.env`.
+- Pastikan Anda telah mengatur env php.
 - Pastikan direktori `storage` dan `bootstrap/cache` dapat ditulis oleh server web.
 - Lihat dokumentasi Laravel resmi (https://laravel.com/docs) untuk informasi lebih lanjut.
 
-Terima kasih telah menggunakan QWords Laravel 10 Landing Page Redesign!
+Terima kasih telah menggunakan Qwords Laravel 10 Landing Page Redesign!
