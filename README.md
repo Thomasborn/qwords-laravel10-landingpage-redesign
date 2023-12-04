@@ -7,7 +7,6 @@ Pastikan sistem Anda memenuhi persyaratan berikut sebelum menginstal projek:
 
 - PHP versi 8 atau lebih baru
 - Composer (https://getcomposer.org/)
-- Node.js dan npm (https://nodejs.org/)
 
 ## Langkah Instalasi
 
@@ -29,35 +28,8 @@ Pastikan sistem Anda memenuhi persyaratan berikut sebelum menginstal projek:
     composer install
     ```
 
-4. **Copy .env**
 
-    Duplikat file `.env.example` dan simpan sebagai `.env`. Sesuaikan konfigurasi database dan pengaturan lainnya sesuai kebutuhan Anda.
-
-5. **Generate App Key**
-
-    ```bash
-    php artisan key:generate
-    ```
-
-6. **Migrasi Database**
-
-    ```bash
-    php artisan migrate
-    ```
-
-7. **Install Dependensi JavaScript**
-
-    ```bash
-    npm install
-    ```
-
-8. **Compile Assets**
-
-    ```bash
-    npm run dev
-    ```
-
-9. **Jalankan Aplikasi**
+4. **Jalankan Aplikasi**
 
     ```bash
     php artisan serve
