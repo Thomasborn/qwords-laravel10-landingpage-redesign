@@ -1,29 +1,74 @@
-Tech Stack :
+# QWords Laravel 10 Landing Page Redesign
 
-Laravel: Laravel adalah kerangka kerja PHP yang populer dan open-source. Ini menyediakan berbagai fitur dan alat untuk mempercepat pengembangan aplikasi web, termasuk routing, manajemen basis data, dan otentikasi pengguna.
+Projek ini adalah redesign dari landing page QWords menggunakan Laravel versi 10. Silakan ikuti langkah-langkah di bawah untuk menginstal dan menjalankan projek ini.
 
-HTML: HTML adalah bahasa markup yang digunakan untuk membangun struktur dan konten halaman web. Ini digunakan untuk menentukan elemen seperti judul, paragraf, gambar, dan tautan.
+## Persyaratan Sistem
+Pastikan sistem Anda memenuhi persyaratan berikut sebelum menginstal projek:
 
-CSS: CSS adalah bahasa gaya yang digunakan untuk mengatur tampilan halaman web. Ini digunakan untuk menentukan warna, font, ukuran, dan tata letak elemen pada halaman web.
+- PHP versi 8 atau lebih baru
+- Composer (https://getcomposer.org/)
+- Node.js dan npm (https://nodejs.org/)
 
-JavaScript: JavaScript adalah bahasa pemrograman yang digunakan untuk memberikan interaksi dan fungsionalitas pada halaman web. Ini dapat digunakan untuk membuat efek animasi, validasi formulir, dan mengambil data dari server melalui AJAX.
+## Langkah Instalasi
 
-AOS: AOS adalah singkatan dari "Animate On Scroll". Ini adalah library JavaScript open-source yang memungkinkan Anda membuat efek animasi ketika pengguna menggulir halaman web.
+1. **Clone Repositori**
 
-Langkah Menjalankan Projek
+    ```bash
+    git clone https://github.com/Thomasborn/qwords-laravel10-landingpage-redesign.git
+    ```
 
-Buka halaman repositori proyek Laravel di GitHub.
-Klik tombol "Code" atau "Clone" dan salin URL repositori proyek (misalnya, https://github.com/nama-akun/nama-repo.git).
-Buka terminal atau command prompt di komputer Anda.
-Pindah ke direktori tempat Anda ingin menyimpan proyek dengan menggunakan perintah cd nama-direktori.
-Jalankan perintah git clone <URL repositori> untuk melakukan cloning proyek dari GitHub. Misalnya, git clone https://github.com/nama-akun/nama-repo.git.
-Setelah proses cloning selesai, pindah ke direktori proyek dengan menggunakan perintah cd nama-repo.
-Salin file .env.example dan ubah namanya menjadi .env.
-Jalankan perintah composer install untuk menginstal semua dependensi proyek yang terdaftar di file composer.json.
-Jalankan perintah php artisan key:generate untuk menghasilkan kunci aplikasi yang diperlukan oleh Laravel.
-Buat database kosong di server MySQL atau database lain yang Anda gunakan.
-Ubah pengaturan koneksi database di file .env dengan mengisi DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, dan DB_PASSWORD sesuai dengan konfigurasi server database Anda.
-Jalankan perintah php artisan migrate untuk menjalankan migrasi dan membuat tabel-tabel yang diperlukan di database.
-Jalankan perintah php artisan serve untuk menjalankan server pengembangan Laravel.
-Buka browser dan akses http://localhost:8000 atau alamat yang ditampilkan di terminal untuk melihat proyek Laravel yang sedang berjalan.
-Dengan langkah-langkah di atas, Anda seharusnya dapat melakukan cloning dan menjalankan proyek Laravel dari GitHub dengan sukses. Pastikan Anda memiliki lingkungan pengembangan yang sesuai (seperti PHP, Composer, dan server database) sebelum memulai.
+2. **Pindah ke Direktori Projek**
+
+    ```bash
+    cd qwords-laravel10-landingpage-redesign
+    ```
+
+3. **Install Dependensi PHP**
+
+    ```bash
+    composer install
+    ```
+
+4. **Copy .env**
+
+    Duplikat file `.env.example` dan simpan sebagai `.env`. Sesuaikan konfigurasi database dan pengaturan lainnya sesuai kebutuhan Anda.
+
+5. **Generate App Key**
+
+    ```bash
+    php artisan key:generate
+    ```
+
+6. **Migrasi Database**
+
+    ```bash
+    php artisan migrate
+    ```
+
+7. **Install Dependensi JavaScript**
+
+    ```bash
+    npm install
+    ```
+
+8. **Compile Assets**
+
+    ```bash
+    npm run dev
+    ```
+
+9. **Jalankan Aplikasi**
+
+    ```bash
+    php artisan serve
+    ```
+
+    Akses aplikasi melalui browser pada [http://localhost:8000](http://localhost:8000).
+
+## Catatan Tambahan
+
+- Pastikan Anda telah mengatur koneksi database pada file `.env`.
+- Pastikan direktori `storage` dan `bootstrap/cache` dapat ditulis oleh server web.
+- Lihat dokumentasi Laravel resmi (https://laravel.com/docs) untuk informasi lebih lanjut.
+
+Terima kasih telah menggunakan QWords Laravel 10 Landing Page Redesign!
